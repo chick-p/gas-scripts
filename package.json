@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "chick-p",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2"
+  }
 }
