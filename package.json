@@ -7,6 +7,9 @@
   "scripts": {
     "login": "clasp login"
   },
+  "workspaces": [
+    "scripts/*"
+  ],
   "keywords": [],
   "author": "chick-p",
   "license": "MIT",
