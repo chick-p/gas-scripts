@@ -2,28 +2,34 @@
 
 ## Setup
 
+1. Change directory to this project`.
+
+   ```bash
+   $ cd scripts/rss-to-bluesky-social/
+   ```
+
 1. Install dependencies.
 
    ```bash
-   $ npm install
+   $ pnpm install
    ```
 
 1. Login to your Google account.
 
    ```bash
-   $ npm run login -w rss-to-bluesky-social
+   $ pnpm run login
    ```
 
 1. (If need) Create a new google apps project.
 
    ```bash
-   $ npm run create -w rss-to-bluesky-social
+   $ pnpm run create
    ```
 
 1. Deploy to google apps project.
 
    ```bash
-   $ npm run deploy-w rss-to-bluesky-social
+   $ pnpm run deploy
    ```
 
 1. Setup script propeties for required paramters.
