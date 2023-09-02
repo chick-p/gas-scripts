@@ -11,6 +11,7 @@
     "bundle": "rollup --no-treeshake -c rollup.config.mjs",
     "create": "mkdir ./dist && clasp create --title rss-to-bluesky-social --type standard --rootDir ./dist && mv ./dist/.clasp.json ./.clasp.json",
     "build": "pnpm run clean && pnpm run bundle && ncp appsscript.json dist/appsscript.json",
+    "login": "clasp login",
     "license": "license-check-and-add add -f license-config.json",
     "test": "jest test/ --passWithNoTests --detectOpenHandles",
     "deploy": "pnpm run lint && pnpm run test && pnpm run build && clasp push -f"
