@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^2.4.2
     version: 2.4.2
   '@types/google-apps-script':
-    specifier: ^1.0.67
-    version: 1.0.67
+    specifier: ^1.0.68
+    version: 1.0.68
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.6.0
     version: 6.6.0(@typescript-eslint/parser@6.6.0)(eslint@8.48.0)(typescript@5.2.2)
@@ -201,8 +201,8 @@ packages:
       '@types/responselike': 1.0.0
     dev: true
 
-  /@types/google-apps-script@1.0.67:
-    resolution: {integrity: sha512-sJfwEKAfWMB22SRbNqfsr7MWVjaYT97eKl8DBTB3uVLJd4jpGibcFSsVqCuFuewzJgjLzj0aSC4gbaFyf3EpXg==}
+  /@types/google-apps-script@1.0.68:
+    resolution: {integrity: sha512-G40R7mgGVdb3NlGSa8RkEZh5DbBqNKQTZI6aad012apakg//+kDQU1rrWRSuscuWlJk59uvpLE8kUMO7oIkUDA==}
     dev: true
 
   /@types/http-cache-semantics@4.0.1:
