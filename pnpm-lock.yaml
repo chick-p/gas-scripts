@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -59,8 +63,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1(rollup@4.1.4)
       rollup-plugin-typescript2:
-        specifier: ^0.35.0
-        version: 0.35.0(rollup@4.1.4)(typescript@5.2.2)
+        specifier: ^0.36.0
+        version: 0.36.0(rollup@4.1.4)(typescript@5.2.2)
       ts-jest:
         specifier: ^29.1.1
         version: 29.1.1(@babel/core@7.23.2)(jest@29.6.2)(typescript@5.2.2)
@@ -5041,8 +5045,8 @@ packages:
       spdx-satisfies: 5.0.1
     dev: true
 
-  /rollup-plugin-typescript2@0.35.0(rollup@4.1.4)(typescript@5.2.2):
-    resolution: {integrity: sha512-szcIO9hPUx3PhQl91u4pfNAH2EKbtrXaES+m163xQVE5O1CC0ea6YZV/5woiDDW3CR9jF2CszPrKN+AFiND0bg==}
+  /rollup-plugin-typescript2@0.36.0(rollup@4.1.4)(typescript@5.2.2):
+    resolution: {integrity: sha512-NB2CSQDxSe9+Oe2ahZbf+B4bh7pHwjV5L+RSYpCu7Q5ROuN94F9b6ioWwKfz3ueL3KTtmX4o2MUH2cgHDIEUsw==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
@@ -6031,7 +6035,3 @@ packages:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
     dev: true
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
