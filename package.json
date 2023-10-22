@@ -5,7 +5,8 @@
   "description": "Scripts for Google Apps Scripts",
   "main": "index.js",
   "scripts": {
-    "login": "clasp login"
+    "login": "clasp login",
+    "lint": "turbo lint"
   },
   "workspaces": [
     "scripts/*"
