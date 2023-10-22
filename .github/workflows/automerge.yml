@@ -6,6 +6,11 @@ on:
       - opened
       - reopened
 
+permissions:
+  contents: write
+  pull-requests: write
+  repository-projects: write
+
 jobs:
   lint:
     uses: chick-p/github-actions-shared-workflow/.github/workflows/dependabot-automerge.yml@main
