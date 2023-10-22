@@ -37,7 +37,7 @@ const fetchReadBooks_ = (userguide: string): BookmeterResponse => {
 };
 
 const filterReadBooksYesterday_ = (
-  response: BookmeterResponse
+  response: BookmeterResponse,
 ): BookmeterResource[] => {
   const dt = new Date();
   dt.setDate(dt.getDate() - 1);
