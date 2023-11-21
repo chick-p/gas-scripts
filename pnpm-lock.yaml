@@ -12,8 +12,8 @@ importers:
         specifier: ^2.4.2
         version: 2.4.2
       '@types/google-apps-script':
-        specifier: ^1.0.77
-        version: 1.0.77
+        specifier: ^1.0.78
+        version: 1.0.78
       '@types/jest':
         specifier: ^29.5.3
         version: 29.5.3
@@ -1014,8 +1014,8 @@ packages:
       '@types/node': 20.5.8
     dev: true
 
-  /@types/google-apps-script@1.0.77:
-    resolution: {integrity: sha512-P/3FDqyYG4Y850TmEs5420xuZXEeAsreBBOJU2bUnbdvvqBuPjyFtIu+kArqAfmf8hvCy/F95/pPQc2X2hwAbQ==}
+  /@types/google-apps-script@1.0.78:
+    resolution: {integrity: sha512-JOTy4vjBQ+HfdtJMkfcNF5WM8RC3R6SVp90bd8BCFvNWSaQ7zzP3abOLuJSCwQHjt0hWftofckvhwEcZjZ4hcQ==}
     dev: true
 
   /@types/graceful-fs@4.1.8:
