@@ -1,0 +1,35 @@
+name: Run lint
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ./.node-version
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --shamefully-hoist --frozen-lockfile
+        env:
+          CI: true
+
+      - name: Run lint
+        run: pnpm run lint
