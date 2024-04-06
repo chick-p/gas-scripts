@@ -10,10 +10,10 @@
     "push": "clasp push",
     "lint": "run-p lint:*",
     "lint:prettier": "prettier --check .",
-    "lint:eslint": "eslint --ext .ts",
+    "lint:eslint": "eslint *.ts",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier -w .",
-    "fix:eslint": "npm run lint:eslint --fix"
+    "fix:eslint": "pnpm run lint:eslint --fix"
   },
   "keywords": [],
   "author": "chick-p",
