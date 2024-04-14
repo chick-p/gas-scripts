@@ -4,7 +4,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
 import typeScriptESLintParser from "@typescript-eslint/parser";
 
 const compat = new FlatCompat();
-const recommended = js.configs;
+const { recommended } = js.configs;
 
 export default [
   {
