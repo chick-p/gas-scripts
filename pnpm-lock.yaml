@@ -81,6 +81,8 @@ importers:
 
   scripts/rss-to-bluesky-social: {}
 
+  scripts/spotify-release2slack: {}
+
 packages:
 
   /@ampproject/remapping@2.2.1:

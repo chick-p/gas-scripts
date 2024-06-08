@@ -1,0 +1,22 @@
+{
+  "name": "spotify-release2slack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "license": "Apache-2.0",
+  "keywords": [],
+  "scripts": {
+    "clean": "rimraf build dist",
+    "lint": "pnpm run license && eslint --fix --no-error-on-unmatched-pattern src/ test/",
+    "bundle": "rollup --no-treeshake -c rollup.config.mjs",
+    "create": "mkdir ./dist && clasp create --title spotify-release2slack --type standard --rootDir ./dist && mv ./dist/.clasp.json ./.clasp.json",
+    "build": "pnpm run clean && pnpm run bundle && ncp appsscript.json dist/appsscript.json",
+    "login": "clasp login",
+    "license": "license-check-and-add add -f license-config.json",
+    "test": "jest test/ --passWithNoTests --detectOpenHandles",
+    "deploy": "pnpm run lint && pnpm run test && pnpm run build && clasp push -f"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
