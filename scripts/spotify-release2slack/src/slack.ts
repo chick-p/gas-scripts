@@ -1,4 +1,4 @@
-import type { Album } from './types/spotify';
+import type { Album } from './index';
 
 const SLACK_WEBHOOK_URL =
   PropertiesService.getScriptProperties().getProperty('SLACK_WEBHOOK_URL') ||

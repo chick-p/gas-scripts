@@ -1,6 +1,13 @@
 import { postSlack_ } from './slack';
 import SpotifyClient from './spotify';
-import type { Album } from './types/spotify';
+
+export type Album = {
+  artist: string;
+  followingArtist: string;
+  name: string;
+  releaseDate: string;
+  url: string;
+}
 
 function main() {
   const today = Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd');
@@ -19,8 +26,8 @@ function main() {
     }
     const artistIds = followingArtists.map(artist => artist.id);
 
-    let allReleaseAlbums: Album[] = [];
     for (const artistId of artistIds) {
+    let allTodayReleaseAlbums: Album[] = [];
       const allArtistAlbums = spotifyClient.getAllArtistAlbums(artistId);
       const todayReleasedAlbum = allArtistAlbums.filter(
         album => album.release_date === today
@@ -34,15 +41,12 @@ function main() {
           url: album.external_urls.spotify,
         };
       });
-      allReleaseAlbums = [
-        ...formattedAlbum,
-        ...allReleaseAlbums,
-      ];
+      allTodayReleaseAlbums = [...formattedAlbum, ...allTodayReleaseAlbums];
     }
-    if (allReleaseAlbums.length === 0) {
+    if (allTodayReleaseAlbums.length === 0) {
       console.log('No release albums');
       return;
     }
-    postSlack_(allReleaseAlbums);
+    postSlack_(allTodayReleaseAlbums);
   }
 }
