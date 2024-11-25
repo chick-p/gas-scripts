@@ -24,10 +24,9 @@ function main() {
       console.log('No following artists');
       return;
     }
-    const artistIds = followingArtists.map(artist => artist.id);
 
-    for (const artistId of artistIds) {
     let allTodayReleaseAlbums: Album[] = [];
+    for (const { id: artistId, name: followingArtistName } of followingArtists) {
       const allArtistAlbums = spotifyClient.getAllArtistAlbums(artistId);
       const todayReleasedAlbum = allArtistAlbums.filter(
         album => album.release_date === today
@@ -37,6 +36,7 @@ function main() {
         return {
           name: album.name,
           artist: artistNames.join(', '),
+          followingArtist: followingArtistName,
           releaseDate: album.release_date,
           url: album.external_urls.spotify,
         };
