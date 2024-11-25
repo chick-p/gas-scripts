@@ -57,10 +57,3 @@ export type ArtistAlbum = {
   release_date_precision: 'year' | 'month' | 'day';
   artists: Artist[];
 };
-
-export type Album = {
-  artist: string;
-  name: string;
-  releaseDate: string;
-  url: string;
-}
