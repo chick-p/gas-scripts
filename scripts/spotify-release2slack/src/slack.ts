@@ -1,4 +1,4 @@
-import type { Album } from './types/spotify';
+import type { Album } from './index';
 
 const SLACK_WEBHOOK_URL =
   PropertiesService.getScriptProperties().getProperty('SLACK_WEBHOOK_URL') ||
@@ -8,7 +8,7 @@ export function postSlack_(albums: Album[]): boolean {
   const attachments = albums.map(album => {
     return {
       color: '#1db954',
-      text: `${album.name} (${album.artist})\n${album.url}`,
+      text: `${album.name} - ${album.artist} (${album.followingArtist})\n${album.url}`,
     };
   });
 
