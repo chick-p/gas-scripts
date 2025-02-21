@@ -60,8 +60,8 @@ importers:
         specifier: ^3.2.1
         version: 3.2.1(rollup@4.34.7)
       rollup-plugin-license:
-        specifier: ^3.5.3
-        version: 3.5.3(rollup@4.34.7)
+        specifier: ^3.6.0
+        version: 3.6.0(rollup@4.34.7)
       rollup-plugin-typescript2:
         specifier: ^0.36.0
         version: 0.36.0(rollup@4.34.7)(typescript@5.7.3)
@@ -855,7 +855,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.1.2
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
       '@jridgewell/trace-mapping': 0.3.20
     dev: true
 
@@ -869,15 +869,15 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: true
 
-  /@jridgewell/sourcemap-codec@1.4.15:
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
+  /@jridgewell/sourcemap-codec@1.5.0:
+    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
     dev: true
 
   /@jridgewell/trace-mapping@0.3.20:
     resolution: {integrity: sha512-R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -2800,8 +2800,8 @@ packages:
       bser: 2.1.1
     dev: true
 
-  /fdir@6.3.0:
-    resolution: {integrity: sha512-QOnuT+BOtivR77wYvCWHfGt9s4Pz1VIMbD463vegT5MLqNXy8rYFT/lPVEqf/bhYeT6qmqrNHhsX+rWwe3rOCQ==}
+  /fdir@6.4.3:
+    resolution: {integrity: sha512-PMXmW2y1hDDfTSRc9gaXIuCCRpuoz3Kaz8cUelp3smouvfT632ozg2vrT6lJsHKKOF59YLbOGfAWGUcKEfRMQw==}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -4425,11 +4425,10 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /magic-string@0.30.5:
-    resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
-    engines: {node: '>=12'}
+  /magic-string@0.30.17:
+    resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
   /make-dir@3.1.0:
@@ -5289,16 +5288,16 @@ packages:
       rollup-pluginutils: 2.8.2
     dev: true
 
-  /rollup-plugin-license@3.5.3(rollup@4.34.7):
-    resolution: {integrity: sha512-r3wImZSo2d6sEk9BRJtlzeI/upjyjnpthy06Fdl0EzqRrlg3ULb9KQR7xHJI0zuayW/8bchEXSF5dO6dha4OyA==}
+  /rollup-plugin-license@3.6.0(rollup@4.34.7):
+    resolution: {integrity: sha512-1ieLxTCaigI5xokIfszVDRoy6c/Wmlot1fDEnea7Q/WXSR8AqOjYljHDLObAx7nFxHC2mbxT3QnTSPhaic2IYw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
     dependencies:
       commenting: 1.1.0
-      fdir: 6.3.0
+      fdir: 6.4.3
       lodash: 4.17.21
-      magic-string: 0.30.5
+      magic-string: 0.30.17
       moment: 2.30.1
       package-name-regex: 2.0.6
       rollup: 4.34.7
@@ -5547,18 +5546,18 @@ packages:
     resolution: {integrity: sha512-kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==}
     dependencies:
       spdx-expression-parse: 3.0.1
-      spdx-license-ids: 3.0.13
+      spdx-license-ids: 3.0.21
     dev: true
 
-  /spdx-exceptions@2.3.0:
-    resolution: {integrity: sha512-/tTrYOC7PPI1nUAgx34hUpqXuyJG+DTHJTnIULG4rDygi4xu/tfgmq1e1cIRwRzwZgo4NLySi+ricLkZkw4i5A==}
+  /spdx-exceptions@2.5.0:
+    resolution: {integrity: sha512-PiU42r+xO4UbUS1buo3LPJkjlO7430Xn5SVAhdpzzsPHsjbYVflnnFdATgabnLude+Cqu25p6N+g2lw/PFsa4w==}
     dev: true
 
   /spdx-expression-parse@3.0.1:
     resolution: {integrity: sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==}
     dependencies:
-      spdx-exceptions: 2.3.0
-      spdx-license-ids: 3.0.13
+      spdx-exceptions: 2.5.0
+      spdx-license-ids: 3.0.21
     dev: true
 
   /spdx-expression-validate@2.0.0:
@@ -5567,8 +5566,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /spdx-license-ids@3.0.13:
-    resolution: {integrity: sha512-XkD+zwiqXHikFZm4AX/7JSCXA98U5Db4AFd5XUg/+9UNtnH75+Z9KxtpYiJZx36mUDVOwH83pl7yvCer6ewM3w==}
+  /spdx-license-ids@3.0.21:
+    resolution: {integrity: sha512-Bvg/8F5XephndSK3JffaRqdT+gyhfqIPwDHpX80tJrF8QQRYMo8sNMeaZ2Dp5+jhwKnUmIOyFFQfHRkjJm5nXg==}
     dev: true
 
   /spdx-ranges@2.1.1:
