@@ -51,7 +51,8 @@ const postSlack_ = ({
     }
     return {
       color: CALENDAR_COLOR,
-      text: `${time} ${event.title}`,
+      mrkdwn_in: ["text"],
+      text: `\`${time}\` ${event.title}`,
     };
   });
 
