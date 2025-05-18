@@ -6,16 +6,12 @@ updates:
     schedule:
       interval: "weekly"
       day: "friday"
-    assignees:
-      - "chick-p"
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
       day: "friday"
-    assignees:
-      - "chick-p"
     groups:
       eslint:
         patterns:
