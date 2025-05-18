@@ -1,0 +1,6 @@
+*       @chick-p
+
+# disable for dependabot automerge
+/.github/workflows/
+/package.json
+/pnpm-lock.yaml
