@@ -9,6 +9,7 @@ export type Album = {
   url: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function main() {
   const today = Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd');
   const propertiesService = PropertiesService.getScriptProperties();

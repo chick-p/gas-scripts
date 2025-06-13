@@ -27,7 +27,7 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --shamefully-hoist --frozen-lockfile
+        run: pnpm install --shamefully-hoist
         env:
           CI: true
 

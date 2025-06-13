@@ -1,6 +1,7 @@
 import BlueskyClient from './bluesky';
 import FeedClient from './feed';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function main() {
   const propertiesService = PropertiesService.getScriptProperties();
   const lock = LockService.getScriptLock();

@@ -1,10 +1,3 @@
-const BOOKMETER_USER_ID =
-  PropertiesService.getScriptProperties().getProperty("BOOKMETER_USER_ID") ||
-  "";
-const SLACK_WEBHOOK_URL =
-  PropertiesService.getScriptProperties().getProperty("SLACK_WEBHOOK_URL") ||
-  "";
-
 type BookmeterResource = {
   id: number;
   created_at: string;
@@ -28,6 +21,12 @@ type SlackAttachment = {
   color?: string;
   fields: Record<"title" | "value", string>[];
 };
+const BOOKMETER_USER_ID =
+  PropertiesService.getScriptProperties().getProperty("BOOKMETER_USER_ID") ||
+  "";
+const SLACK_WEBHOOK_URL =
+  PropertiesService.getScriptProperties().getProperty("SLACK_WEBHOOK_URL") ||
+  "";
 
 const fetchReadBooks_ = (userguide: string): BookmeterResponse => {
   const url = `https://bookmeter.com/users/${userguide}/books/read.json?sort=read_at&order=desc&offset=0&limit=10`;
@@ -110,7 +109,7 @@ function main(): void {
     return;
   }
 
-  // Slack
+  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
   postSlack_({ books: yesterdayBooks, webhookUrl: SLACK_WEBHOOK_URL })
     ? "Success"
     : "Failed";

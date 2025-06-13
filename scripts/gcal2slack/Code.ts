@@ -15,10 +15,6 @@ type GcalEvent = {
   title: string;
 };
 
-type GcalEventResponse = {
-  resources: GcalEvent[];
-};
-
 function getTodayEvents_(): GoogleAppsScript.Calendar.CalendarEvent[] {
   const calendar = CalendarApp.getCalendarById(GCAL_ID);
   const today = new Date();
@@ -85,7 +81,7 @@ function main(): void {
     return;
   }
 
-  // Slack
+  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
   postSlack_({ events: formattedEvents, webhookUrl: SLACK_WEBHOOK_URL })
     ? "Success"
     : "Failed";
