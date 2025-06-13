@@ -1,17 +1,12 @@
 import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
+import tseslint from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
-import typeScriptESLintParser from "@typescript-eslint/parser";
-
-const compat = new FlatCompat();
-const { recommended } = js.configs;
 
 export default [
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  eslintConfigPrettier,
   {
-    recommended,
-    eslintConfigPrettier,
-    ...compat.extends("plugin:@typescript-eslint/eslint-recommended"),
-    parser: typeScriptESLintParser,
     ignores: ["**/node_modules/", "**/build/*", "**/testing/*"],
   },
 ];
