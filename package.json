@@ -35,6 +35,6 @@
     "ts-jest": "^29.3.4",
     "turbo": "^2.5.4",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.22.0"
+    "typescript-eslint": "^8.34.1"
   }
 }
