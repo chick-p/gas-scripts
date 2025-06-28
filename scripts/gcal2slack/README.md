@@ -19,7 +19,6 @@ This is a google apps script that posts to Slack about the today events
    ```
 
 1. Setup script propeties for required paramters.
-
    1. Access to the project page.
 
       ```shell
@@ -28,7 +27,6 @@ This is a google apps script that posts to Slack about the today events
 
    1. Open [Project Settings].
    1. Add the below propeties.
-
       - `GCAL_ID`: Bookmeter ID
       - `SLACK_WEBHOOK_URL`: Slack Webbhook URL
       - `CALENDAR_COLOR`: Calendar color
