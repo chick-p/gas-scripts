@@ -19,7 +19,7 @@
     "@google/clasp": "^2.5.0",
     "@types/google-apps-script": "^1.0.97",
     "@types/jest": "^30.0.0",
-    "eslint": "^9.30.1",
+    "eslint": "^9.31.0",
     "eslint-config-prettier": "^10.1.5",
     "gts": "^6.0.2",
     "jest": "^30.0.4",
@@ -35,6 +35,6 @@
     "ts-jest": "^29.3.4",
     "turbo": "^2.5.4",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.35.1"
+    "typescript-eslint": "^8.36.0"
   }
 }
