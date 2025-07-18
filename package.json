@@ -20,7 +20,7 @@
     "@types/google-apps-script": "^1.0.97",
     "@types/jest": "^30.0.0",
     "eslint": "^9.31.0",
-    "eslint-config-prettier": "^10.1.5",
+    "eslint-config-prettier": "^10.1.8",
     "gts": "^6.0.2",
     "jest": "^30.0.4",
     "license-check-and-add": "^4.0.5",
@@ -35,6 +35,6 @@
     "ts-jest": "^29.3.4",
     "turbo": "^2.5.4",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.36.0"
+    "typescript-eslint": "^8.37.0"
   }
 }
