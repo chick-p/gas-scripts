@@ -12,8 +12,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       '@types/google-apps-script':
-        specifier: ^1.0.100
-        version: 1.0.100
+        specifier: ^2.0.1
+        version: 2.0.1
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -1271,8 +1271,8 @@ packages:
       '@types/node': 24.3.1
     dev: true
 
-  /@types/google-apps-script@1.0.100:
-    resolution: {integrity: sha512-POgcjcDbrjYJYf3Av6j5n+z9/z/WulCNh9Gj199HgrcgRLzcQLg5ALw6jdWcgBkzgTLNYZSe7/01aOfiNzzn9g==}
+  /@types/google-apps-script@2.0.1:
+    resolution: {integrity: sha512-pWRCWyQZYeZT+qf8x6wt6YMlw+QyTl9JPqHzfADRFnnSDAI/XwR6XoeeWmvvHg5UbKca5WqNEhxuaQhAyRttJQ==}
     dev: true
 
   /@types/http-cache-semantics@4.0.4:
@@ -1370,7 +1370,7 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': 4.12.1
-      '@typescript-eslint/parser': 5.62.0(eslint@9.35.0)(typescript@5.9.2)
+      '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.9.2)
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@8.57.1)(typescript@5.9.2)
       '@typescript-eslint/utils': 5.62.0(eslint@8.57.1)(typescript@5.9.2)
@@ -1410,7 +1410,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser@5.62.0(eslint@9.35.0)(typescript@5.9.2):
+  /@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.9.2):
     resolution: {integrity: sha512-VlJEV0fOQ7BExOsHYAGrgbEiZoi8D+Bl2+f6V2RrXerRSylnp+ZBHmPvaIa8cz0Ajx7WO7Z5RqfgYg7ED1nRhA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1424,7 +1424,7 @@ packages:
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.9.2)
       debug: 4.4.1
-      eslint: 9.35.0
+      eslint: 8.57.1
       typescript: 5.9.2
     transitivePeerDependencies:
       - supports-color
@@ -3585,7 +3585,7 @@ packages:
       typescript: '>=5'
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(typescript@5.9.2)
-      '@typescript-eslint/parser': 5.62.0(eslint@9.35.0)(typescript@5.9.2)
+      '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.9.2)
       chalk: 4.1.2
       eslint: 8.57.1
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
