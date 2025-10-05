@@ -12,8 +12,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       '@types/google-apps-script':
-        specifier: ^2.0.1
-        version: 2.0.1
+        specifier: ^2.0.4
+        version: 2.0.4
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -1281,8 +1281,8 @@ packages:
       '@types/node': 24.6.2
     dev: true
 
-  /@types/google-apps-script@2.0.1:
-    resolution: {integrity: sha512-pWRCWyQZYeZT+qf8x6wt6YMlw+QyTl9JPqHzfADRFnnSDAI/XwR6XoeeWmvvHg5UbKca5WqNEhxuaQhAyRttJQ==}
+  /@types/google-apps-script@2.0.4:
+    resolution: {integrity: sha512-Ra6vduULsar+WU2cn1h2TQoEXh45ty8jjjrdPqO4f/S8lbR75mYDI+5zjhZF7u2y2X3oB1qPqkSQBy7T7vdsnA==}
     dev: true
 
   /@types/http-cache-semantics@4.0.4:
