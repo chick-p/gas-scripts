@@ -16,7 +16,7 @@
   "author": "chick-p",
   "license": "MIT",
   "devDependencies": {
-    "@google/clasp": "^3.1.1",
+    "@google/clasp": "^3.1.3",
     "@types/google-apps-script": "^2.0.7",
     "@types/jest": "^30.0.0",
     "eslint": "^9.39.1",
