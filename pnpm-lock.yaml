@@ -12,8 +12,8 @@ importers:
         specifier: ^3.1.3
         version: 3.1.3(typescript@5.9.3)
       '@types/google-apps-script':
-        specifier: ^2.0.7
-        version: 2.0.7
+        specifier: ^2.0.8
+        version: 2.0.8
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -1579,8 +1579,8 @@ packages:
       '@types/node': 24.10.1
     dev: true
 
-  /@types/google-apps-script@2.0.7:
-    resolution: {integrity: sha512-Yd5ham8GJNPoKSMt9Ep+B5IJzmfsvSNkOF1DWGQDyz66+1O/Jw/TEe6fltJcTKRvNlCCH5ZaGmmYDOgadA8QYQ==}
+  /@types/google-apps-script@2.0.8:
+    resolution: {integrity: sha512-mGPmzzdgBu1DlwrjOhFQ8u0se6AF/z4OpaTzOGwNKxwXZjE7J+IssfE3oL24j/S/p6aFiSTIptHZvbyqeZD8vA==}
     dev: true
 
   /@types/istanbul-lib-coverage@2.0.6:
