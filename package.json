@@ -26,7 +26,7 @@
     "license-check-and-add": "^4.0.5",
     "ncp": "^2.0.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.7.2",
+    "prettier": "^3.7.4",
     "rimraf": "^6.1.2",
     "rollup": "^4.53.3",
     "rollup-plugin-cleanup": "^3.2.1",
@@ -35,6 +35,6 @@
     "ts-jest": "^29.4.5",
     "turbo": "^2.6.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.48.0"
+    "typescript-eslint": "^8.48.1"
   }
 }
