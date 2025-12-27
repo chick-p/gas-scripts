@@ -21,7 +21,7 @@
     "@types/jest": "^30.0.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
-    "gts": "^6.0.2",
+    "gts": "^7.0.0",
     "jest": "^30.2.0",
     "license-check-and-add": "^4.0.5",
     "ncp": "^2.0.0",
