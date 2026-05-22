@@ -32,8 +32,8 @@ importers:
         specifier: ^3.2.0
         version: 3.3.0(@types/node@22.15.18)(typescript@5.9.3)
       '@types/google-apps-script':
-        specifier: ^2.0.8
-        version: 2.0.8
+        specifier: ^2.0.9
+        version: 2.0.9
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -984,8 +984,8 @@ packages:
   '@types/glob@7.2.0':
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
 
-  '@types/google-apps-script@2.0.8':
-    resolution: {integrity: sha512-mGPmzzdgBu1DlwrjOhFQ8u0se6AF/z4OpaTzOGwNKxwXZjE7J+IssfE3oL24j/S/p6aFiSTIptHZvbyqeZD8vA==}
+  '@types/google-apps-script@2.0.9':
+    resolution: {integrity: sha512-HPkV46KuI4y/s7UsaPva9B2jljKGro9rPDuWSMQrOu6vW3ImRpRXrlBDi1m5ON/5gTqOGaFx1vXNfOHdw6j0OA==}
 
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
@@ -4896,7 +4896,7 @@ snapshots:
       '@types/minimatch': 3.0.5
       '@types/node': 22.15.18
 
-  '@types/google-apps-script@2.0.8': {}
+  '@types/google-apps-script@2.0.9': {}
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
