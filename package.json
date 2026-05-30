@@ -33,7 +33,7 @@
     "rollup-plugin-license": "^3.7.0",
     "rollup-plugin-typescript2": "^0.37.0",
     "ts-jest": "^29.4.11",
-    "turbo": "^2.9.14",
+    "turbo": "^2.9.16",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.59.4"
   },
