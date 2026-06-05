@@ -35,7 +35,7 @@
     "ts-jest": "^29.4.11",
     "turbo": "^2.9.16",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.60.0"
+    "typescript-eslint": "^8.60.1"
   },
   "pnpm": {
     "overrides": {
