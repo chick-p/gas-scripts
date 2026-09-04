@@ -23,7 +23,7 @@
     "eslint": "^10.9.1",
     "eslint-config-prettier": "^10.1.8",
     "gts": "^7.0.0",
-    "jest": "^30.4.2",
+    "jest": "^30.5.1",
     "license-check-and-add": "^4.0.5",
     "ncp": "^2.0.0",
     "npm-run-all2": "^9.0.3",
