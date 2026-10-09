@@ -13,4 +13,4 @@ permissions:
 
 jobs:
   lint:
-    uses: chick-p/github-actions-shared-workflow/.github/workflows/dependabot-automerge.yml@19278e10d4e7f1860a5ff184e9ddc622bba230f3 # v0.4.0
+    uses: chick-p/github-actions-shared-workflow/.github/workflows/dependabot-automerge.yml@2f12e0eb5d446e4f36a1247417445beda6ac474e # v0.4.1
